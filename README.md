@@ -8,7 +8,7 @@ The following content describes the Firebase Command Line Interface (CLI) tools.
 * Interact with data in your Firebase database
 * Import/Export users into/from Firebase Auth
 
-To get started with the Firebase CLI, you can read the full list of commands below or check out [hosting-specific CLI documentation](https://firebase.google.com/docs/hosting/quickstart).
+To get started with the Firebase CLI, you can read the full list of commands below or at [hosting-specific CLI documentation](https://firebase.google.com/docs/hosting/quickstart).
 
 ## Installation
 
@@ -149,6 +149,6 @@ client.deploy({
 ```
 ## License
 
-[MIT License]()
+[MIT License](https://github.com/chriso23/firebase-cli/blob/master/LICENSE)
 
 
