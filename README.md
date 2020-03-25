@@ -1,7 +1,7 @@
 Firebase Command Line Interface (CLI)
 -------------------------------------
 
-The following content describes how to install and use the Firebase Command Line Interface (CLI) tools to manage, test, and deploy your Firebase projects—using the command line. Use the Firebase CLI to accomplish any of the following tasks:
+The following content describes how to install and use the Firebase Command Line Interface (CLI) tools to manage, test, and deploy your Firebase projects—using the command line. You can use the Firebase CLI to accomplish any of the following tasks:
 
 * To deploy code and assets to your Firebase projects
 * To run a local web server for your Firebase Hosting site
@@ -14,14 +14,25 @@ To get started with the Firebase CLI, you can read the full list of commands bel
 
 Before you can install the CLI, you need to install [npm](https://npmjs.org/) first, which typically comes with [Node.js](http://nodejs.org/).
 
-After npm is installed on your local computer, you can now get the Firebase CLI by following these steps:
+After npm is installed on your local machine, you can now get the Firebase CLI by following these steps:
 
-1. Open terminal and run the following npm command:
-
+1. Open terminal shell and run the following npm command:
     ```bash
     npm install -g firebase-tools
     ```
     **Note**: This will provide you with the globally accessible `firebase` command.
+    
+2. Verify that the Firebase CLI has been installed correctly on your local machine by running the following command:
+    ```bash
+    firebase --version
+    ```
+    Make sure that the version of the Firebase CLI is v4.1.0 or later.
+
+3. After installing the CLI, you must authenticate. Sign into Firebase using your Google account by running the following command:
+    ```bash
+    firebase login
+    ```
+    This command connects your local machine to Firebase and grants you access to your Firebase projects.
 
 ## Commands
 
