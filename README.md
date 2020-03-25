@@ -28,7 +28,7 @@ After npm is installed on your local machine, you can now get the Firebase CLI b
     ```
     Make sure that the version of the Firebase CLI is v4.1.0 or later.
 
-3. After installing the CLI, you must authenticate. Sign into Firebase using your Google account by running the following command:
+3. After installing the CLI, you must authenticate. you can sign into Firebase using your Google account by running the following command:
     ```bash
     firebase login
     ```
