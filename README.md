@@ -1,7 +1,7 @@
 Firebase Command Line Interface (CLI)
 -------------------------------------
 
-The following content describes how to install and use the Firebase Command Line Interface (CLI) tools to manage, test, and deploy your Firebase projects—using the command line. You can use the Firebase CLI to accomplish any of the following tasks:
+The following content describes how to install and use the Firebase Command Line Interface (CLI) to manage, test, and deploy your Firebase projects—using the command line. You can use the Firebase CLI to accomplish any of the following tasks:
 
 * To deploy code and assets to your Firebase projects
 * To run a local web server for your Firebase Hosting site
