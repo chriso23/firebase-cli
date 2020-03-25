@@ -14,13 +14,14 @@ To get started with the Firebase CLI, you can read the full list of commands bel
 
 Before you can install the CLI, you need to install [npm](https://npmjs.org/) first, which typically comes with [Node.js](http://nodejs.org/).
 
-After npm is installed on your local computer, you can now get the Firebase CLI by opening terminal and running the following npm command:
+After npm is installed on your local computer, you can now get the Firebase CLI by following these steps:
 
-```bash
-npm install -g firebase-tools
-```
+1. Open terminal and run the following npm command:
 
-This will provide you with the globally accessible `firebase` command.
+    ```bash
+    npm install -g firebase-tools
+    ```
+    **Note**: This will provide you with the globally accessible `firebase` command.
 
 ## Commands
 
